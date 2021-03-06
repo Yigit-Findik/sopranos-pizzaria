@@ -41,7 +41,7 @@ module.exports = {
       },
 
       screens: {
-        'tel': '400px',
+        'tel': '350px',
       },
     },
   },
