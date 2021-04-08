@@ -42,7 +42,7 @@ module.exports = {
       },
 
       screens: {
-        'tel': '250px',
+        'tel': '350px',
       },
     },
   },

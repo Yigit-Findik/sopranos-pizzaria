@@ -1,4 +1,4 @@
-/*! tailwindcss v2.0.4 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.0.3 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -367,5 +367,5 @@ Add the correct display in Chrome and Safari.
 @media (min-width: 1536px) {
 }
 
-@media (min-width: 250px) {
+@media (min-width: 350px) {
 }
