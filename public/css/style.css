@@ -13,3 +13,10 @@
 .navcolor {
     color: rgb(165, 165, 165);
 }
+
+.upperCheck {
+    text-align: center;
+    color: rgb(75, 122, 253);
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
