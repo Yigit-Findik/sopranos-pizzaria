@@ -43,7 +43,6 @@ module.exports = {
         350: '85rem',
         375: '91rem'
       },
-
       screens: {
         'tel': '350px',
       },
