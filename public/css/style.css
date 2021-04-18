@@ -20,3 +20,34 @@
     font-size: 25px;
     font-family: 'Pacifico', cursive;
 }
+
+.Pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.colorBlue {
+    color: rgb(75, 122, 253);
+}
+
+/** input */
+label {
+    top: 0%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    color: rgba(37, 99, 235, 1);
+}
+.empty input:not(:focus) + label {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+input:not(:focus) + label {
+    color: rgb(75, 122, 253);
+}
+input {
+    border-width: 1px;
+}
+input:focus {
+    outline: none;
+    border-color: rgba(37, 99, 235, 1);
+}

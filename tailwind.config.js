@@ -7,6 +7,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        'light-ish-blue': '#4b7afd',
+      },
       height: {
         //custom heights added for smoother development
         112: '28rem',
