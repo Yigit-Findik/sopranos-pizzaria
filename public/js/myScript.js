@@ -1,7 +1,7 @@
 
 
 //*input js
-document.getElementById('name').placeholder = '1234AA'
+document.getElementById('adres').placeholder = '1234AA'
 const allInputs = document.querySelectorAll('input');
 for(const input of allInputs) {
     input.addEventListener('input', () => {

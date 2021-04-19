@@ -47,9 +47,9 @@
                 <div class="ml-1.5 mb-2 Pacifico colorBlue text-lg">Check nu!</div>
                 <div class="w-20 mb-2 h-1 bg-light-ish-blue rounded"></div>
                 <input
-                  id="name"
+                  id="adres"
                   type="text"
-                  name="name"
+                  name="adres"
                   minlength="6"
                   maxlength="6"
                   class="h-full w-full border-gray-300 px-2 transition-all border-blue rounded-sm"
@@ -58,24 +58,103 @@
               <svg class="pt-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b7afd" fill-opacity="1" d="M0,256L720,160L1440,128L1440,320L720,320L0,320Z"></path></svg>
         </div>
 
-        <div class="bg-light-ish-blue h-64 w-full">
+        <div class="bg-light-ish-blue h-96 w-full">
             <div class="w-full h-16"></div>        
-            <div class="Pacifico text-lg text-center text-white">
+            <div class="Pacifico text-lg text-center text-white mt-20">
                 Ons Locatie
             </div> 
             <div class="w-20 mb-1 mt-1 h-1 bg-white rounded ml-42"></div>
             <div class="text-lg text-center text-white">
                 Nieuwstadweg 4, 6545AP Nijmegen, Nederland
             </div>
+            <svg class="pt-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L1440,256L1440,320L0,320Z"></path></svg>
         </div>
 
-        
-        <div class="h-152 w-full bg-gray-400">
-
+        <div class="h-112 w-full">
+            <div class="w-full h-16"></div>
+            <div class="Pacifico text-lg text-center text-light-ish-blue mt-20">
+                Over Ons
+            </div>
+            <div class="w-20 mb-1 mt-1 h-1 bg-light-ish-blue rounded ml-42"></div>
+            <div class="text-base text-center text-light-ish-blue w-72 ml-auto mr-auto">
+                Onze pizza's worden direct na uw bestelling vers en op traditionele wijze gebakken.  
+                Alle producten brengen wij hygiënisch en warm bij u thuis.
+            </div>
+            <svg class="mt-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b7afd" fill-opacity="1" d="M0,64L720,160L1440,96L1440,320L720,320L0,320Z"></path></svg>
         </div>
-        <div class="h-152 w-full bg-yellow-300">
 
+
+        <div class="h-152 w-full bg-light-ish-blue">
+            <div class="w-full h-20"></div>
+            <div class="w-full h-112">
+                <div class="w-56 h-64 ml-auto mr-auto">
+                    <div class="Pacifico text-lg text-center text-white mt-20">
+                        Pizza Vegetariano
+                    </div>
+                    <div class="w-20 mb-1 mt-1 h-1 bg-white rounded ml-18"></div>
+                    <img src="img/vegeteriano.jpg" alt="vegeteriano">
+                    <select class="appearance-none w-6 ml-24 mt-3" name="vegeteriano">
+                        <option value="nbm0">0</option>
+                        <option value="nbm1">1</option>
+                        <option value="nmb2">2</option>
+                        <option value="nbm3" >3</option>
+                        <option value="nbm4" >4</option>
+                        <option value="nmb5" >5</option>
+                    </select><br>
+                </div>
+                <svg class="pt-28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,0L720,224L1440,224L1440,320L720,320L0,320Z"></path></svg>
+            </div>
         </div>
+
+        <div class="w-full h-112">
+            <div class="w-full h-20"></div>
+            <div class="w-72 h-72 ml-auto mr-auto">
+                <form action="#">
+                    <div class="relative h-10 input-component mb-3">
+                        <input
+                          id="name"
+                          type="text"
+                          name="name"
+                          class="h-full w-full border-gray-300 px-2 transition-all border-blue rounded-sm"
+                        />
+                        <label for="name" class="absolute left-2 transition-all bg-white px-1">
+                          Naam
+                        </label>
+                    </div>
+
+                    <div class="relative h-10 input-component mb-3">
+                        <input
+                          id="email"
+                          type="text"
+                          name="email"
+                          class="h-full w-full border-gray-300 px-2 transition-all border-blue rounded-sm"
+                        />
+                        <label for="email" class="absolute left-2 transition-all bg-white px-1">
+                          E-mail
+                        </label>
+                    </div>
+
+                    <div class="relative h-10 input-component mb-3">
+                        <input
+                          id="adres2"
+                          type="text"
+                          name="email"
+                          class="h-full w-full border-gray-300 px-2 transition-all border-blue rounded-sm"
+                        />
+                        <label for="adres2" class="absolute left-2 transition-all bg-white px-1">
+                            Adres
+                        </label>
+                    </div>
+                    <button class="buttonsend" type="submit">Verstuur!</button>
+                </form>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4b7afd" fill-opacity="1" d="M0,320L720,192L1440,160L1440,320L720,320L0,320Z"></path></svg>
+        </div>
+        <div class="w-full h-36 bg-light-ish-blue">
+            <div class="text-center text-white pt-14">
+                Met liefde gemaakt door Yigit Findik B.V
+            </div>
+        </div>  
     </main>
 
     <footer>
