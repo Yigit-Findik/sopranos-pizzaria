@@ -1,3 +1,78 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+#backgroundimage {
+    background-image: url('../img/pizzaAD.png');
+    background-attachment: fixed; 
+}
+
+.titleEnlarge {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: white;
+}
+
+.navcolor {
+    color: rgb(165, 165, 165);
+}
+
+.upperCheck {
+    text-align: center;
+    color: rgb(75, 122, 253);
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.Pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.colorBlue {
+    color: rgb(75, 122, 253);
+}
+
+.ml-42 {
+    margin-left: 10.5rem;
+}
+
+.ml-18 {
+    margin-left: 4.5rem;
+}
+
+.buttonsend {
+    background-color: rgb(75, 122, 253);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.buttonsend:hover {
+    background-color: rgb(36, 94, 255);
+}
+
+/** input */
+label {
+    top: 0%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    color: rgba(37, 99, 235, 1);
+}
+.empty input:not(:focus) + label {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+input:not(:focus) + label {
+    color: rgb(75, 122, 253);
+}
+input {
+    border-width: 1px;
+}
+input:focus {
+    outline: none;
+    border-color: rgba(37, 99, 235, 1);
+}

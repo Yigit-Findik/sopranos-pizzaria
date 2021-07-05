@@ -1,5 +1,3 @@
-
-
 //*input js
 document.getElementById('adres').placeholder = '1234AA'
 const allInputs = document.querySelectorAll('input');
